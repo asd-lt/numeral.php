@@ -12,9 +12,9 @@ namespace Stillat\Numeral\Languages;
  * author : Dominik Bulaj : https://github.com/dominikbulaj
  */
 
-class Language_piPL extends AbstractLanguage
+class Language_plPL extends AbstractLanguage
 {
-    public static $code = 'pi-PL';
+    public static $code = 'pl-PL';
 
     protected $delimiters = [
         'thousands' => ' ',
