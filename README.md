@@ -1,4 +1,6 @@
 # Numeral.php
+[![Build Status](https://travis-ci.org/Stillat/numerals.php.svg?branch=master)](https://travis-ci.org/Stillat/numerals.php)
+[![Latest Stable Version](https://poser.pugx.org/stillat/numeral.php/v/stable)](https://packagist.org/packages/stillat/numeral.php) [![Total Downloads](https://poser.pugx.org/stillat/numeral.php/downloads)](https://packagist.org/packages/stillat/numeral.php) [![Latest Unstable Version](https://poser.pugx.org/stillat/numeral.php/v/unstable)](https://packagist.org/packages/stillat/numeral.php) [![License](https://poser.pugx.org/stillat/numeral.php/license)](https://packagist.org/packages/stillat/numeral.php)
 
 Numeral.php is a number formatting library for PHP. It started off as a port of [`numerals-js`](http://numeraljs.com/) (a number formatting library for JavaScript). This is where Numeral.php gets it's name. The latest iteration of Numeral.php is based on [`numbro`](https://github.com/foretagsplatsen/numbro), a maintained "version" of numerals-js. The API is very similar to `numbro`, but there are some things that are different. Most of the documentation here is taken from the [`numbro.js website`](http://numbrojs.com/format.html), and adjusted where necessary, so be sure to give them some love.
 
