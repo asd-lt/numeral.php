@@ -1,6 +1,6 @@
-# Numerals.php
+# Numeral.php
 
-Numerals.php is a number formatting library for PHP. It started off as a port of [`numerals-js`](http://numeraljs.com/) (a number formatting library for JavaScript). This is where Numerals.php gets it's name. The latest iteration of Numerals.php is based on [`numbro`](https://github.com/foretagsplatsen/numbro), a maintained "version" of numerals-js. The API is very similar to `numbro`, but there are some things that are different. Most of the documentation here is taken from the [`numbro.js website`](http://numbrojs.com/format.html), and adjusted where necessary, so be sure to give them some love.
+Numeral.php is a number formatting library for PHP. It started off as a port of [`numerals-js`](http://numeraljs.com/) (a number formatting library for JavaScript). This is where Numeral.php gets it's name. The latest iteration of Numeral.php is based on [`numbro`](https://github.com/foretagsplatsen/numbro), a maintained "version" of numerals-js. The API is very similar to `numbro`, but there are some things that are different. Most of the documentation here is taken from the [`numbro.js website`](http://numbrojs.com/format.html), and adjusted where necessary, so be sure to give them some love.
 
 Here is a quick example:
 
@@ -14,7 +14,7 @@ $formatter->format(233434, '0a.00');
 
 ## Getting Started
 
-Working with Numerals.php is fairly straightforward. There are two things you have to do when first getting started. First, we need to create a language manager instance, and then a `Numeral` (this class does all the formatting and unformatting) instance. The language manager handles loading culture information that the formatter will use.
+Working with Numeral.php is fairly straightforward. There are two things you have to do when first getting started. First, we need to create a language manager instance, and then a `Numeral` (this class does all the formatting and unformatting) instance. The language manager handles loading culture information that the formatter will use.
 
 Doing this might look like this:
 
@@ -72,7 +72,7 @@ $string = $formatter->format(1000, '0,0');
 
 ### Average
 
-Numerals.php provides an easy mechanism to round up any number with the special formatting character `a`. Note that the delimiters are per language.
+Numeral.php provides an easy mechanism to round up any number with the special formatting character `a`. Note that the delimiters are per language.
 
 | Number | Format | String |
 |---|---|---|
@@ -104,7 +104,7 @@ In addition to this, when numbers are rounded up, one can specify the precision 
 
 ### Currency
 
-Numerals.php supports cultural currency formatting via the function `formatCurrency`.
+Numeral.php supports cultural currency formatting via the function `formatCurrency`.
 
 ```php
 // $1000
@@ -204,7 +204,7 @@ $number = $formatter->format('0');
 ```
 ## Acknowledgements
 
-Numerals.php is based on [numbro](https://github.com/foretagsplatsen/numbro), which is itself a fork of [Adam Draper's](https://github.com/adamwdraper) project [Numerals.js](http://numeraljs.com/) (the name of Numerals.php was influenced by this project). Numbro made many improvements to numerals, so the codebase of Numerals.php is heavily influenced by it (Numbro formats should work without much, if any, modification in Numerals.php).
+Numeral.php is based on [numbro](https://github.com/foretagsplatsen/numbro), which is itself a fork of [Adam Draper's](https://github.com/adamwdraper) project [Numerals.js](http://numeraljs.com/) (the name of Numeral.php was influenced by this project). Numbro made many improvements to numerals, so the codebase of Numeral.php is heavily influenced by it (Numbro formats should work without much, if any, modification in Numeral.php).
 
 ## License
 
