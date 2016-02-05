@@ -1,12 +1,12 @@
 <?php
 
-use Stillat\Numeral\Languages\Language_piPL;
+use Stillat\Numeral\Languages\Language_plPL;
 
 class Language_plPLTest extends LanguageTestBase
 {
     protected function getLangInstance()
     {
-        return new Language_piPL;
+        return new Language_plPL;
     }
 
     protected $formatTests = [

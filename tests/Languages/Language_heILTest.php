@@ -1,14 +1,10 @@
 <?php
 
-// require_once (__DIR__.'/../LanguageTestBase.php');
-
-use Stillat\Numeral\Languages\Language_heIL;
-
 class Language_heILTest extends LanguageTestBase
 {
     protected function getLangInstance()
     {
-        return new Language_heIL();
+        return new Stillat\Numeral\Languages\Language_heIL;
     }
 
     protected $formatTests = [
